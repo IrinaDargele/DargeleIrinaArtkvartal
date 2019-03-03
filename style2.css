@@ -279,6 +279,7 @@ li{
     .header_icon, .mobile_icon{
         width: 30px;
         height: 30px;
+        margin: 5px;
     }
 
     .header_logo{
