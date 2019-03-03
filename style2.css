@@ -1,0 +1,291 @@
+body{
+    color: #666666;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+.header_social-icon, .header_logo, .header_nav, .main{
+    box-sizing: border-box;
+    padding: 15px calc(50% - 620px);
+}
+
+.header_social-icon{
+    background: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.small_social_icon{
+    width: 20px;
+    height: 16px;
+    fill: #666666;
+}
+
+.enter{
+    display: flex;
+}
+
+.enter a{
+    display: flex;
+    padding: 5px 20px;
+    border-right: 1px solid #666666;
+}
+
+.enter a:hover, .icon_kontakts a:hover, .header_nav li:hover{
+    text-decoration: underline;
+}
+
+.enter span{
+    padding-left: 5px;
+}
+
+.social_networks{
+    padding: 0 40px;
+}
+.social_networks svg{
+    padding: 0 15px;
+}
+
+.small_social_icon:hover{
+    fill: #dc699b;
+}
+
+.header_logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.logo{
+
+    display: flex;
+    align-items: center;
+}
+
+.icon_kontakts{
+    display: flex;
+}
+
+.icon_kontakts a{
+    display: flex;
+    padding: 10px 0;
+}
+
+.icon_kontakts svg{
+    padding-right: 5px;
+}
+
+.icon_kontakts span{
+    padding-right: 10px;
+}
+
+.header_icon{
+    fill: #dc699b;
+    width: 90px;
+    height: 90px;
+    margin-right: 10px;
+}
+
+.kontakts{
+    flex-basis: 50%;
+}
+
+.search{
+    display: flex;
+}
+
+.search input{
+    border:  1px solid #c3c3c3;
+    border-right: none;
+    flex-basis:  90%;
+    outline: none;
+}
+
+.search button{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.icon_shopping_cart{
+    fill: #dc699b;
+    width: 30px;
+    height: 30px;
+    margin:  10px 20px;
+
+}
+.output_basket {
+    border-right: 1px solid #c3c3c3;
+    padding-right: 20px;
+    padding: 20px;
+}
+
+.basket{
+    border: 1px solid #c3c3c3;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.cart{
+    position: relative;
+}
+
+.cart::after{
+    content: attr(data-count);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #232a6d;
+    color: #ffffff;
+    position: absolute;
+    bottom: 55px;
+    right: 25px;
+}
+
+.mobile_icon{
+    width: 40px;
+    height: 40px;
+    fill: #ffffff;
+    margin: 10px 20px;
+}
+
+.link_mobile_icon{
+    display: none;
+}
+
+.header_nav{
+    background: #dc699b;
+}
+
+.header_nav li{
+    display: inline-block;
+    border-right: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 10px 70px;
+}
+
+.header_nav li:last-child, .enter a:last-child{
+    border: none;
+}
+
+.main{
+    display: flex;
+}
+
+.icon_kategory{
+    fill: #9a82df;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.kategory a{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+@media screen and (max-width: 995px){
+    .header_nav li {
+        padding: 10px 50px;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .output_basket{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 795px){
+    .header_nav li {
+        padding: 10px 20px;
+    }
+
+    .header_icon{
+        width: 60px;
+        height: 60px;
+    }
+
+    .basket{
+        border: none;
+        padding: 0;
+    }
+
+    .icon_shopping_cart{
+        width: 40px;
+        height: 40px;
+    }
+
+    .cart::after{
+        bottom: 27px;
+        right: 27px;
+    }
+}
+
+@media screen and (max-width: 670px){
+    .kontakts{
+        order: 1;
+    }
+
+    .header_social-icon, .header_nav, .kontakts{
+        display: none;
+    }
+
+    .header_logo{
+        background: #dc699b;
+        margin: 0;
+        color: #ffffff;
+        justify-content: space-around;
+    }
+
+    .logo{
+        margin-left: 10px;
+    }
+
+    .icon_shopping_cart, .header_icon{
+        fill: #ffffff;
+    }
+
+    .link_mobile_icon{
+        display: block;
+    }
+
+    .mobile_icon:hover, .icon_shopping_cart:hover{
+        fill: #9a82df;
+    }
+}
+@media screen and (max-width: 440px){
+
+    .header_icon, .mobile_icon{
+        width: 30px;
+        height: 30px;
+    }
+
+    .header_logo{
+        justify-content: center;
+    }
+
+    body{
+        font-size: 12px;
+    }
+}

@@ -4,245 +4,330 @@
     <meta charset="UTF-8">
     <title>Artkvartal</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
-    <!--<link rel="stylesheet" href="style.css">-->
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
-<header>
-    <div>
-        <div>
-            <a href="#"><span><svg></svg>Вход</span></a>
-            <a href="#"><span><svg></svg>Избранное</span></a>
-            <a href="#"><span><svg></svg>Сравнение</span></a>
-        </div>
 
-        <div>
-            <a href=""><svg></svg></a>
-            <a href=""><svg></svg></a>
-            <a href=""><svg></svg></a>
-        </div>
-    </div>
-    <div>
-        <a>
-            <img src="#" alt="logo">
+<div class="header_social-icon">
+    <div class="enter">
+        <a href="#">
+            <svg class="small_social_icon" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 64 64">
+                <use xlink:href="img/svg/signin.svg#signin"></use>
+            </svg>
+            <span>
+                Вход
+            </span>
         </a>
+        <a href="#">
+            <svg class="small_social_icon" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 64 64">
+                <use xlink:href="img/svg/heart.svg#heart"></use>
+            </svg>
+            <span>
+                Избранное
+            </span>
+        </a>
+        <a href="#">
+            <svg class="small_social_icon" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 51 43.9">
+                <use xlink:href="img/svg/compare.svg#compare"></use>
+            </svg>
+            <span>
+                Сравнение
+            </span>
+        </a>
+    </div>
+    <div class="social_networks">
+        <a href="https://vk.com" target="_blank">
+            <svg class="small_social_icon" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 69 64">
+                <use xlink:href="img/svg/vk.svg#vk"></use>
+            </svg>
+        </a>
+        <a href="https://facebook.com" target="_blank">
+            <svg class="small_social_icon" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 37 64">
+                <use xlink:href="img/svg/facebook_new.svg#fb"></use>
+            </svg>
+        </a>
+        <a href="https://twitter.com" target="_blank">
+            <svg class="small_social_icon" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 238 222">
+                <use xlink:href="img/svg/twitter.svg#twitter"></use>
+            </svg>
+        </a>
+    </div>
+</div>
 
+<header class="header_logo">
+    <a class="logo" href="#">
+        <svg class="header_icon " xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 226 226">
+            <use xlink:href="img/svg/logo.svg#logo"></use>
+        </svg>
         <div>
-            <svg></svg><a href="tel:+7495000000">8 (800) 00 00 00</a>
-            <svg></svg><a href="mailto:info@nalabuten.ah">info@nalabuten.ah</a>
-            <form method="get">
-                <input type="search" placeholder="Введите поисковую фразу">
-                <button type="submit"><svg></svg></button>
-            </form>
+            <div>
+                ARTKVARTAL.LV
+            </div>
+            <div>
+                хобби-гипермаркет
+            </div>
         </div>
-
-        <div>
-            <output>75 000</output>
-            <div data-count="2"><svg></svg></div>
-
+    </a>
+    <div class="kontakts">
+        <div class="icon_kontakts">
+            <a href="tel:+7495000000">
+                <svg class="small_social_icon" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 50 64">
+                    <use xlink:href="img/svg/phone.svg#phone"></use>
+                </svg>
+                <span>
+                    8 (800) 00 00 00
+                </span>
+            </a>
+            <a href="mailto:info@nalabuten.ah">
+                <svg class="small_social_icon" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 64 64">
+                    <use xlink:href="img/svg/envelope_alt.svg#envelope_alt"></use>
+                </svg>
+                <span>
+                     info@artkvartal.lv
+                </span>
+            </a>
+        </div>
+        <form class="search" method="get">
+            <input type="search" placeholder="Введите поисковую фразу">
+            <button type="submit">
+                <svg class="small_social_icon" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 71.71 73.97">
+                    <use xlink:href="img/svg/lupa.svg#lupa"></use>
+                </svg>
+            </button>
+        </form>
+    </div>
+    <div class="basket">
+        <output class="output_basket">75 000 p.</output>
+        <div class="cart" data-count="2">
+            <a href="#">
+                <svg class="small_social_icon icon_shopping_cart" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 59 64">
+                    <use xlink:href="img/svg/shopping_cart.svg#shopping_cart"></use>
+                </svg>
+            </a>
         </div>
     </div>
-    <nav>
-        <ul>
-            <li><a href="#">Главная</a></li>
-            <li><a href="#">Каталог</a></li>
-            <li><a href="#">Галерея</a></li>
-            <li><a href="#">Акции</a></li>
-            <li><a href="#">Контакты</a></li>
-        </ul>
-    </nav>
+    <a class="link_mobile_icon" href="#">
+        <svg class="mobile_icon" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 71.71 73.97">
+            <use xlink:href="img/svg/lupa.svg#lupa"></use>
+        </svg>
+    </a>
+    <a class="link_mobile_icon" href="#">
+        <svg class="mobile_icon" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50">
+            <use xlink:href="img/svg/hamburger.svg#hamburger"></use>
+        </svg>
+    </a>
 </header>
-<main>
 
-    <aside>
-        <section>
-            <h2>Категории</h2>
-            <ul>
-                <li><svg></svg>Вечерние</li>
-                <li><svg></svg>Свадебные</li>
-                <li><svg></svg>Бальные</li>
-                <li><svg></svg>Повседневные</li>
-                <li><svg></svg>Особенные</li>
-                <li><svg></svg>Обыкновенные</li>
-                <li><svg></svg>Оригиналные</li>
-                <li><svg></svg>Космические</li>
-            </ul>
-        </section>
+<nav class="header_nav">
+    <ul>
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">Каталог</a></li>
+        <li><a href="#">Галерея</a></li>
+        <li><a href="#">Акции</a></li>
+        <li><a href="#">Контакты</a></li>
+    </ul>
+</nav>
 
-
-        <div>
-            <a href="#"><img src="#"  alt="Advertising"> </a>
-        </div>
-        <div>
-            <a href="#"><img src="#"  alt="Advertising"> </a>
-        </div>
-
-    </aside>
-    <div>
-        <section>
-            <div>
-                <img src="#"  alt="Labuten">
-            </div>
-            <div>
-                <div>Labuten Cherry</div>
-                <h2>Новая весенняя коллекция</h2>
-                <p>Мы рады вам представить новую коллекцию туфель от знаменитого дизайнера-модельера Кристиана </p>
-
-                <a href="#"> <div>купить сейчас</div></a>
-            </div>
-        </section>
-
-        <div>
-            <a href="#">
-                <svg></svg>
-                <div>Продажа</div>
-                <p>Широкий ассортимент моделей</p>
-            </a>
-            <a href="#">
-                <svg></svg>
-                <div>Скидки</div>
-                <p>Невообразимо низкие цены</p>
-            </a>
-            <a href="#">
-                <svg></svg>
-                <div>Акции</div>
-                <p>Широкий ассортимент моделей</p>
-            </a>
-        </div>
-
-        <section>
-            <h2>
-                Новинки
-            </h2>
-            <div>
-                <figure>
-                    <a href="#">
-                        <img src="#"  alt="Labuten">
-                        <div>Labyten-lady</div>
-                    </a>
-                    <div>35 000 р.</div>
-                    <div>
-                        <a href="#"><svg></svg>В корзину</a>
-                        <a href="#"><svg></svg></a>
-                    </div>
-
-                </figure>
-
-                <figure>
-                    <a href="#">
-                        <img src="#"  alt="Labuten">
-                        <div>Labyten-lady</div>
-                    </a>
-                    <div>35 000 р.</div>
-                    <div>
-                        <a href="#"><svg></svg>В корзину</a>
-                        <a href="#"><svg></svg></a>
-                    </div>
-                </figure>
-
-                <figure>
-                    <a href="#">
-                        <img src="#"  alt="Labuten">
-                        <div>Labyten-lady</div>
-                    </a>
-                    <div>35 000 р.</div>
-                    <div>
-                        <a href="#"><svg></svg>В корзину</a>
-                        <a href="#"><svg></svg></a>
-                    </div>
-                </figure>
-            </div>
-        </section>
-
-        <section>
-            <h2>
-                Товары со скидкой
-            </h2>
-            <div>
-                <figure>
-                    <a href="#">
-                        <img src="#"  alt="Labuten">
-                        <div>Labyten-lady</div>
-                    </a>
-                    <div>35 000 р. <sup><del>42 700 р.</del></sup>   </div>
-
-                    <div>
-                        <a href="#"><svg></svg>В корзину</a>
-                        <a href="#"><svg></svg></a>
-                    </div>
-                </figure>
-
-                <figure>
-                    <a href="#">
-                        <img src="#"  alt="Labuten">
-                        <div>Labyten-lady</div>
-                    </a>
-                    <div>35 000 р. <sup><del>42 700 р.</del></sup>   </div>
-                    <div>
-                        <a href="#"><svg></svg>В корзину</a>
-                        <a href="#"><svg></svg></a>
-                    </div>
-                </figure>
-
-                <figure>
-                    <a href="#">
-                        <img src="#"  alt="Labuten">
-                        <div>Labyten-lady</div>
-                    </a>
-                    <div>35 000 р. <sup><del>42 700 р.</del></sup>   </div>
-                    <div>
-                        <a href="#"><svg></svg>В корзину</a>
-                        <a href="#"><svg></svg></a>
-                    </div>
-                </figure>
-            </div>
-        </section>
-    </div>
-</main>
-
-<footer>
-    <div>
-        <img src="#" alt="logo">
-    </div>
+<!--<div class="main">-->
+    <!--<aside>-->
+        <!--<section>-->
+            <!--<h2>Категории</h2>-->
+            <!--<ul>-->
+                <!--<li class="kategory">-->
+                    <!--<a href="#">-->
+                        <!--<svg class="icon_kategory" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 226 226">-->
+                            <!--<use xlink:href="img/svg/logo.svg#logo"></use>-->
+                        <!--</svg>-->
+                        <!--Краски-->
+                    <!--</a>-->
+                <!--</li>-->
+                <!--<li><svg></svg>Кисти</li>-->
+                <!--<li><svg></svg>Бумага</li>-->
+                <!--<li><svg></svg>Повседневные</li>-->
+                <!--<li><svg></svg>Мольберты</li>-->
+                <!--<li><svg></svg>Скапбукинг</li>-->
+                <!--<li><svg></svg>Каллиграфия</li>-->
+                <!--<li><svg></svg>Книги</li>-->
+                <!--<li><svg></svg>Детям</li>-->
+            <!--</ul>-->
+        <!--</section>-->
 
 
-        <div>
-            Меню
-        </div>
+        <!--<div>-->
+            <!--<a href="#"><img src="#"  alt="Advertising"> </a>-->
+        <!--</div>-->
+        <!--<div>-->
+            <!--<a href="#"><img src="#"  alt="Advertising"> </a>-->
+        <!--</div>-->
 
-        <ul>
-            <li><a href="#">Главная</a></li>
-            <li><a href="#">Каталог</a></li>
-            <li><a href="#">Галерея</a></li>
-            <li><a href="#">Акции</a></li>
-            <li><a href="#">Контакты</a></li>
-        </ul>
+    <!--</aside>-->
+    <!--<main>-->
+        <!--<section>-->
+            <!--<div>-->
+                <!--<img src="#"  alt="Labuten">-->
+            <!--</div>-->
+            <!--<div>-->
+                <!--<div>Labuten Cherry</div>-->
+                <!--<h2>Новая весенняя коллекция</h2>-->
+                <!--<p>Мы рады вам представить новую коллекцию туфель от знаменитого дизайнера-модельера Кристиана </p>-->
+
+                <!--<a href="#"> <div>купить сейчас</div></a>-->
+            <!--</div>-->
+        <!--</section>-->
+
+        <!--<div>-->
+            <!--<a href="#">-->
+                <!--<svg></svg>-->
+                <!--<div>Продажа</div>-->
+                <!--<p>Широкий ассортимент моделей</p>-->
+            <!--</a>-->
+            <!--<a href="#">-->
+                <!--<svg></svg>-->
+                <!--<div>Скидки</div>-->
+                <!--<p>Невообразимо низкие цены</p>-->
+            <!--</a>-->
+            <!--<a href="#">-->
+                <!--<svg></svg>-->
+                <!--<div>Акции</div>-->
+                <!--<p>Широкий ассортимент моделей</p>-->
+            <!--</a>-->
+        <!--</div>-->
+
+        <!--<section>-->
+            <!--<h2>-->
+                <!--Новинки-->
+            <!--</h2>-->
+            <!--<div>-->
+                <!--<figure>-->
+                    <!--<a href="#">-->
+                        <!--<img src="#"  alt="Labuten">-->
+                        <!--<div>Labyten-lady</div>-->
+                    <!--</a>-->
+                    <!--<div>35 000 р.</div>-->
+                    <!--<div>-->
+                        <!--<a href="#"><svg></svg>В корзину</a>-->
+                        <!--<a href="#"><svg></svg></a>-->
+                    <!--</div>-->
+
+                <!--</figure>-->
+
+                <!--<figure>-->
+                    <!--<a href="#">-->
+                        <!--<img src="#"  alt="Labuten">-->
+                        <!--<div>Labyten-lady</div>-->
+                    <!--</a>-->
+                    <!--<div>35 000 р.</div>-->
+                    <!--<div>-->
+                        <!--<a href="#"><svg></svg>В корзину</a>-->
+                        <!--<a href="#"><svg></svg></a>-->
+                    <!--</div>-->
+                <!--</figure>-->
+
+                <!--<figure>-->
+                    <!--<a href="#">-->
+                        <!--<img src="#"  alt="Labuten">-->
+                        <!--<div>Labyten-lady</div>-->
+                    <!--</a>-->
+                    <!--<div>35 000 р.</div>-->
+                    <!--<div>-->
+                        <!--<a href="#"><svg></svg>В корзину</a>-->
+                        <!--<a href="#"><svg></svg></a>-->
+                    <!--</div>-->
+                <!--</figure>-->
+            <!--</div>-->
+        <!--</section>-->
+
+        <!--<section>-->
+            <!--<h2>-->
+                <!--Товары со скидкой-->
+            <!--</h2>-->
+            <!--<div>-->
+                <!--<figure>-->
+                    <!--<a href="#">-->
+                        <!--<img src="#"  alt="Labuten">-->
+                        <!--<div>Labyten-lady</div>-->
+                    <!--</a>-->
+                    <!--<div>35 000 р. <sup><del>42 700 р.</del></sup>   </div>-->
+
+                    <!--<div>-->
+                        <!--<a href="#"><svg></svg>В корзину</a>-->
+                        <!--<a href="#"><svg></svg></a>-->
+                    <!--</div>-->
+                <!--</figure>-->
+
+                <!--<figure>-->
+                    <!--<a href="#">-->
+                        <!--<img src="#"  alt="Labuten">-->
+                        <!--<div>Labyten-lady</div>-->
+                    <!--</a>-->
+                    <!--<div>35 000 р. <sup><del>42 700 р.</del></sup>   </div>-->
+                    <!--<div>-->
+                        <!--<a href="#"><svg></svg>В корзину</a>-->
+                        <!--<a href="#"><svg></svg></a>-->
+                    <!--</div>-->
+                <!--</figure>-->
+
+                <!--<figure>-->
+                    <!--<a href="#">-->
+                        <!--<img src="#"  alt="Labuten">-->
+                        <!--<div>Labyten-lady</div>-->
+                    <!--</a>-->
+                    <!--<div>35 000 р. <sup><del>42 700 р.</del></sup>   </div>-->
+                    <!--<div>-->
+                        <!--<a href="#"><svg></svg>В корзину</a>-->
+                        <!--<a href="#"><svg></svg></a>-->
+                    <!--</div>-->
+                <!--</figure>-->
+            <!--</div>-->
+        <!--</section>-->
+    <!--</main>-->
+<!--</div>-->
+
+<!--<footer>-->
+    <!--<div>-->
+        <!--<img src="#" alt="logo">-->
+    <!--</div>-->
+
+
+    <!--<div>-->
+        <!--Меню-->
+    <!--</div>-->
+
+    <!--<ul>-->
+        <!--<li><a href="#">Главная</a></li>-->
+        <!--<li><a href="#">Каталог</a></li>-->
+        <!--<li><a href="#">Галерея</a></li>-->
+        <!--<li><a href="#">Акции</a></li>-->
+        <!--<li><a href="#">Контакты</a></li>-->
+    <!--</ul>-->
 
 
 
-    <div>
-        <div>
-            Способы оплаты
-        </div>
-        <ul>
-            <li>Наличными</li>
-            <li>Visa или MasterCard</li>
-            <li>В кредит</li>
-        </ul>
-    </div>
+    <!--<div>-->
+        <!--<div>-->
+            <!--Способы оплаты-->
+        <!--</div>-->
+        <!--<ul>-->
+            <!--<li>Наличными</li>-->
+            <!--<li>Visa или MasterCard</li>-->
+            <!--<li>В кредит</li>-->
+        <!--</ul>-->
+    <!--</div>-->
 
 
-    <address>
-        <div>
-            Контактная информация
-        </div>
-        <ul>
-            <li>Телефон</li>
-            <li>E-mail</li>
-            <li>Адрес</li>
-        </ul>
-    </address>
+    <!--<address>-->
+        <!--<div>-->
+            <!--Контактная информация-->
+        <!--</div>-->
+        <!--<ul>-->
+            <!--<li>Телефон</li>-->
+            <!--<li>E-mail</li>-->
+            <!--<li>Адрес</li>-->
+        <!--</ul>-->
+    <!--</address>-->
 
-</footer>
-<small>&copy; Nalabuten.ah 2017</small>
+<!--</footer>-->
+<!--<small>&copy; Nalabuten.ah 2017</small>-->
 </body>
 </html>
