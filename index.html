@@ -57,9 +57,14 @@
 
 <header class="header_logo">
     <a class="logo" href="#">
-        <svg class="header_icon " xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 226 226">
-            <use xlink:href="img/svg/logo.svg#logo"></use>
-        </svg>
+
+        <!--почему несрабатывают разные цвета???!!!-->
+        <!--<svg class="header_icon" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 226 226">-->
+        <!--<use xlink:href="img/svg/logo_color.svg#logo_color"></use>-->
+        <!--</svg>-->
+
+        <img class="header_icon" src="img/svg/logo_color.svg" alt="logo">
+
         <div>
             <div>
                 ARTKVARTAL.LV
@@ -79,7 +84,7 @@
                     8 (800) 00 00 00
                 </span>
             </a>
-            <a href="mailto:info@nalabuten.ah">
+            <a href="mailto:info@artkvartal.lv">
                 <svg class="small_social_icon" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 64 64">
                     <use xlink:href="img/svg/envelope_alt.svg#envelope_alt"></use>
                 </svg>
@@ -98,7 +103,7 @@
         </form>
     </div>
     <div class="basket">
-        <output class="output_basket">75 000 p.</output>
+        <output class="output_basket">75 000</output><span>р.</span>
         <div class="cart" data-count="2">
             <a href="#">
                 <svg class="small_social_icon icon_shopping_cart" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 59 64">
@@ -129,205 +134,438 @@
     </ul>
 </nav>
 
-<!--<div class="main">-->
-    <!--<aside>-->
-        <!--<section>-->
-            <!--<h2>Категории</h2>-->
-            <!--<ul>-->
-                <!--<li class="kategory">-->
-                    <!--<a href="#">-->
-                        <!--<svg class="icon_kategory" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 226 226">-->
-                            <!--<use xlink:href="img/svg/logo.svg#logo"></use>-->
-                        <!--</svg>-->
-                        <!--Краски-->
-                    <!--</a>-->
-                <!--</li>-->
-                <!--<li><svg></svg>Кисти</li>-->
-                <!--<li><svg></svg>Бумага</li>-->
-                <!--<li><svg></svg>Повседневные</li>-->
-                <!--<li><svg></svg>Мольберты</li>-->
-                <!--<li><svg></svg>Скапбукинг</li>-->
-                <!--<li><svg></svg>Каллиграфия</li>-->
-                <!--<li><svg></svg>Книги</li>-->
-                <!--<li><svg></svg>Детям</li>-->
-            <!--</ul>-->
-        <!--</section>-->
+<div class="main">
+    <aside>
+        <section>
+            <h2 class="produkt_categories">Категории</h2>
+            <ul class="categories">
+                <li>
+                    <a href="#">
+                        <svg class="icon_categories" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 226 226">
+                            <use xlink:href="img/svg/logo.svg#logo"></use>
+                        </svg>
+                        Краски
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <svg class="icon_categories" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 627 626">
+                            <use xlink:href="img/svg/kist.svg#kist"></use>
+                        </svg>
+                        Кисти
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <svg class="icon_categories" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 225 225">
+                            <use xlink:href="img/svg/bumaga.svg#bumaga"></use>
+                        </svg>
+                        Бумага
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <svg class="icon_categories" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 225 225">
+                            <use xlink:href="img/svg/molbert.svg#molbert"></use>
+                        </svg>
+                        Мольберты
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <svg class="icon_categories" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 917.02 916">
+                            <use xlink:href="img/svg/noznici.svg#noznici"></use>
+                        </svg>
+                        Скапбукинг
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <svg class="icon_categories" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 632 639">
+                            <use xlink:href="img/svg/pero.svg#pero"></use>
+                        </svg>
+                        Каллиграфия
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <svg class="icon_categories" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1200">
+                            <use xlink:href="img/svg/kniga.svg#kniga"></use>
+                        </svg>
+                        Книги
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <svg class="icon_categories" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 232.03 231">
+                            <use xlink:href="img/svg/baby.svg#baby"></use>
+                        </svg>
+                        Детям
+                    </a>
+                </li>
+            </ul>
+        </section>
 
+        <div>
+            <a href="#"><img class="baner" src="img/jpg/baner1.jpg" srcset="img/jpg/baner1@2x.jpg 2x, img/jpg/baner1@3x.jpg 3x, img/jpg/baner1@4x.jpg 4x" alt="Advertising"> </a>
+        </div>
 
-        <!--<div>-->
-            <!--<a href="#"><img src="#"  alt="Advertising"> </a>-->
-        <!--</div>-->
-        <!--<div>-->
-            <!--<a href="#"><img src="#"  alt="Advertising"> </a>-->
-        <!--</div>-->
+        <div>
+            <a href="#"><img class="baner" src="img/jpg/baner2.jpg" srcset="img/jpg/baner2@2x.jpg 2x, img/jpg/baner2@3x.jpg 3x, img/jpg/baner2@4x.jpg 4x" alt="Advertising"> </a>
+        </div>
 
-    <!--</aside>-->
-    <!--<main>-->
-        <!--<section>-->
-            <!--<div>-->
-                <!--<img src="#"  alt="Labuten">-->
-            <!--</div>-->
-            <!--<div>-->
-                <!--<div>Labuten Cherry</div>-->
-                <!--<h2>Новая весенняя коллекция</h2>-->
-                <!--<p>Мы рады вам представить новую коллекцию туфель от знаменитого дизайнера-модельера Кристиана </p>-->
+    </aside>
+    <main>
+        <section class="slider">
+            <div class="slider_img">
+                <img class="advertising_img" src="img/jpg/slider.jpg" srcset="img/jpg/slider@2x.jpg 2x, img/jpg/slider@3x.jpg 3x, img/jpg/slider@4x.jpg 4x" alt="Advertising">            </div>
+            <div class="slider_text">
+                <div class="slider_name">VISTA-ARTISTA</div>
+                <h2 class="text_ping">Новая коллекция красок</h2>
+                <p>Палитра новых акварельных красок VISTA-ARTISTA насчитывает 38 цветов </p>
+                <a href="#">
+                    <h2 class="text_orange button_buy">
+                        купить сейчас
+                    </h2>
+                </a>
+            </div>
+        </section>
 
-                <!--<a href="#"> <div>купить сейчас</div></a>-->
-            <!--</div>-->
-        <!--</section>-->
+        <div class="offers">
+            <a href="#">
+                <div class="name_offfers text_ping">
+                    <svg class="icon_offers" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 226 226">
+                        <use xlink:href="img/svg/logo.svg#logo"></use>
+                    </svg>
+                    <h2> Мастерская</h2>
+                </div>
+                <div>Мастер-классы для детей и взрослых</div>
+            </a>
+            <a href="#">
+                <div class="name_offfers text_orange">
+                    <svg class="icon_offers" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
+                        <use xlink:href="img/svg/thumbs_up_alt.svg#thumbs_up_alt"></use>
+                    </svg>
+                    <h2>Скидки</h2>
+                </div>
+                <div>Невообразимо низкие цены</div>
+            </a>
+            <a href="#">
+                <div class="name_offfers text_green">
+                    <svg class="icon_offers" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
+                        <use xlink:href="img/svg/gift.svg#gift"></use>
+                    </svg>
+                    <h2>Акции</h2>
+                </div>
+                <div>Специальные предложения</div>
+            </a>
+        </div>
 
-        <!--<div>-->
-            <!--<a href="#">-->
-                <!--<svg></svg>-->
-                <!--<div>Продажа</div>-->
-                <!--<p>Широкий ассортимент моделей</p>-->
-            <!--</a>-->
-            <!--<a href="#">-->
-                <!--<svg></svg>-->
-                <!--<div>Скидки</div>-->
-                <!--<p>Невообразимо низкие цены</p>-->
-            <!--</a>-->
-            <!--<a href="#">-->
-                <!--<svg></svg>-->
-                <!--<div>Акции</div>-->
-                <!--<p>Широкий ассортимент моделей</p>-->
-            <!--</a>-->
-        <!--</div>-->
+        <section class="new">
+            <h2>
+                Новинки
+            </h2>
+            <div class="new_items">
 
-        <!--<section>-->
-            <!--<h2>-->
-                <!--Новинки-->
-            <!--</h2>-->
-            <!--<div>-->
-                <!--<figure>-->
-                    <!--<a href="#">-->
-                        <!--<img src="#"  alt="Labuten">-->
-                        <!--<div>Labyten-lady</div>-->
-                    <!--</a>-->
-                    <!--<div>35 000 р.</div>-->
-                    <!--<div>-->
-                        <!--<a href="#"><svg></svg>В корзину</a>-->
-                        <!--<a href="#"><svg></svg></a>-->
-                    <!--</div>-->
+                <div class="figure circle_new">
+                    <a class="link_items" href="#">
 
-                <!--</figure>-->
+                        <figure>
+                            <img class="img_items" src="img/jpg/items/markers_ecoline.jpg"  alt="markers_ecoline">
 
-                <!--<figure>-->
-                    <!--<a href="#">-->
-                        <!--<img src="#"  alt="Labuten">-->
-                        <!--<div>Labyten-lady</div>-->
-                    <!--</a>-->
-                    <!--<div>35 000 р.</div>-->
-                    <!--<div>-->
-                        <!--<a href="#"><svg></svg>В корзину</a>-->
-                        <!--<a href="#"><svg></svg></a>-->
-                    <!--</div>-->
-                <!--</figure>-->
+                            <figcaption class="name_items">Маркеры Ecoline</figcaption>
+                        </figure>
+                    </a>
+                    <span><span class="text_ping"> 1 000 р.</span></span>
 
-                <!--<figure>-->
-                    <!--<a href="#">-->
-                        <!--<img src="#"  alt="Labuten">-->
-                        <!--<div>Labyten-lady</div>-->
-                    <!--</a>-->
-                    <!--<div>35 000 р.</div>-->
-                    <!--<div>-->
-                        <!--<a href="#"><svg></svg>В корзину</a>-->
-                        <!--<a href="#"><svg></svg></a>-->
-                    <!--</div>-->
-                <!--</figure>-->
-            <!--</div>-->
-        <!--</section>-->
+                    <span class="in_basket">
 
-        <!--<section>-->
-            <!--<h2>-->
-                <!--Товары со скидкой-->
-            <!--</h2>-->
-            <!--<div>-->
-                <!--<figure>-->
-                    <!--<a href="#">-->
-                        <!--<img src="#"  alt="Labuten">-->
-                        <!--<div>Labyten-lady</div>-->
-                    <!--</a>-->
-                    <!--<div>35 000 р. <sup><del>42 700 р.</del></sup>   </div>-->
+                        <button type="submit" class="in_basket_btn">
+                            <svg class="icon_in_basket" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
+                                <use xlink:href="img/svg/shopping_cart.svg#shopping_cart"></use>
+                            </svg>
+                            <span>В корзину</span>
+                        </button>
 
-                    <!--<div>-->
-                        <!--<a href="#"><svg></svg>В корзину</a>-->
-                        <!--<a href="#"><svg></svg></a>-->
-                    <!--</div>-->
-                <!--</figure>-->
+                        <button type="submit">
+                            <svg class="icon_in_basket" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 64">
+                                <use xlink:href="img/svg/bolt.svg#bolt"></use>
+                            </svg>
+                        </button>
 
-                <!--<figure>-->
-                    <!--<a href="#">-->
-                        <!--<img src="#"  alt="Labuten">-->
-                        <!--<div>Labyten-lady</div>-->
-                    <!--</a>-->
-                    <!--<div>35 000 р. <sup><del>42 700 р.</del></sup>   </div>-->
-                    <!--<div>-->
-                        <!--<a href="#"><svg></svg>В корзину</a>-->
-                        <!--<a href="#"><svg></svg></a>-->
-                    <!--</div>-->
-                <!--</figure>-->
+                    </span>
+                </div>
 
-                <!--<figure>-->
-                    <!--<a href="#">-->
-                        <!--<img src="#"  alt="Labuten">-->
-                        <!--<div>Labyten-lady</div>-->
-                    <!--</a>-->
-                    <!--<div>35 000 р. <sup><del>42 700 р.</del></sup>   </div>-->
-                    <!--<div>-->
-                        <!--<a href="#"><svg></svg>В корзину</a>-->
-                        <!--<a href="#"><svg></svg></a>-->
-                    <!--</div>-->
-                <!--</figure>-->
-            <!--</div>-->
-        <!--</section>-->
-    <!--</main>-->
-<!--</div>-->
+                <div class="figure circle_new">
+                    <a class="link_items" href="#">
 
-<!--<footer>-->
-    <!--<div>-->
-        <!--<img src="#" alt="logo">-->
-    <!--</div>-->
+                        <figure>
+                            <img class="img_items" src="img/jpg/items/kisti_nova.jpg"  alt="kisti_nova">
 
+                            <figcaption class="name_items">Кисти NOVA</figcaption>
+                        </figure>
+                    </a>
 
-    <!--<div>-->
-        <!--Меню-->
-    <!--</div>-->
+                    <div><span class="text_ping"> 900 р.</span></div>
 
-    <!--<ul>-->
-        <!--<li><a href="#">Главная</a></li>-->
-        <!--<li><a href="#">Каталог</a></li>-->
-        <!--<li><a href="#">Галерея</a></li>-->
-        <!--<li><a href="#">Акции</a></li>-->
-        <!--<li><a href="#">Контакты</a></li>-->
-    <!--</ul>-->
+                    <div class="in_basket">
 
+                        <button type="submit" class="in_basket_btn">
+                            <svg class="icon_in_basket" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
+                                <use xlink:href="img/svg/shopping_cart.svg#shopping_cart"></use>
+                            </svg>
+                            <span>В корзину</span>
+                        </button>
 
+                        <button type="submit">
+                            <svg class="icon_in_basket" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 64">
+                                <use xlink:href="img/svg/bolt.svg#bolt"></use>
+                            </svg>
+                        </button>
 
-    <!--<div>-->
-        <!--<div>-->
-            <!--Способы оплаты-->
-        <!--</div>-->
-        <!--<ul>-->
-            <!--<li>Наличными</li>-->
-            <!--<li>Visa или MasterCard</li>-->
-            <!--<li>В кредит</li>-->
-        <!--</ul>-->
-    <!--</div>-->
+                    </div>
+                </div>
 
+                <div class="figure circle_new">
+                    <a class="link_items" href="#">
 
-    <!--<address>-->
-        <!--<div>-->
-            <!--Контактная информация-->
-        <!--</div>-->
-        <!--<ul>-->
-            <!--<li>Телефон</li>-->
-            <!--<li>E-mail</li>-->
-            <!--<li>Адрес</li>-->
-        <!--</ul>-->
-    <!--</address>-->
+                        <figure>
+                            <img class="img_items" src="img/jpg/items/akvarel_van_gogh.jpeg"  alt="akvarel_van_gogh">
+                            <figcaption class="name_items">Акварель Van Gogh</figcaption>
+                        </figure>
+                    </a>
 
-<!--</footer>-->
-<!--<small>&copy; Nalabuten.ah 2017</small>-->
+                    <div><span class="text_ping"> 900 р.</span></div>
+
+                    <div class="in_basket">
+
+                        <button type="submit" class="in_basket_btn">
+                            <svg class="icon_in_basket" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
+                                <use xlink:href="img/svg/shopping_cart.svg#shopping_cart"></use>
+                            </svg>
+                            <span>В корзину</span>
+                        </button>
+
+                        <button type="submit">
+                            <svg class="icon_in_basket" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 64">
+                                <use xlink:href="img/svg/bolt.svg#bolt"></use>
+                            </svg>
+                        </button>
+
+                    </div>
+                </div>
+
+                <div class="figure circle_new">
+                    <a class="link_items" href="#">
+
+                        <figure>
+                            <img class="img_items" src="img/jpg/items/nabor_addex.jpg"  alt="nabor_addex">
+                            <figcaption class="name_items">Набор Addex</figcaption>
+                        </figure>
+                    </a>
+
+                    <div><span class="text_ping"> 900 р.</span></div>
+
+                    <div class="in_basket">
+
+                        <button type="submit" class="in_basket_btn">
+                            <svg class="icon_in_basket" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
+                                <use xlink:href="img/svg/shopping_cart.svg#shopping_cart"></use>
+                            </svg>
+                            <span>В корзину</span>
+                        </button>
+
+                        <button type="submit">
+                            <svg class="icon_in_basket" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 64">
+                                <use xlink:href="img/svg/bolt.svg#bolt"></use>
+                            </svg>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sale">
+            <h2>
+                Товары со скидкой
+            </h2>
+            <div class="sale_items ">
+
+                <div class="figure circle_sale">
+                    <a class="link_items" href="#">
+
+                        <figure>
+                            <img class="img_items" src="img/jpg/items/akvarel_leningrag.jpg"  alt="akvarel_leningrad">
+                            <figcaption class="name_items">Акварель Ленинград</figcaption>
+                        </figure>
+                    </a>
+
+                    <div><span class="text_ping"> 900 р.</span> <sup><del>1 000 р.</del></sup></div>
+
+                    <div class="in_basket">
+
+                        <button type="submit" class="in_basket_btn">
+                            <svg class="icon_in_basket" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
+                                <use xlink:href="img/svg/shopping_cart.svg#shopping_cart"></use>
+                            </svg>
+                            <span>В корзину</span>
+                        </button>
+
+                        <button type="submit">
+                            <svg class="icon_in_basket" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 64">
+                                <use xlink:href="img/svg/bolt.svg#bolt"></use>
+                            </svg>
+                        </button>
+
+                    </div>
+                </div>
+
+                <div class="figure circle_sale">
+                    <a class="link_items" href="#">
+
+                        <figure>
+                            <img class="img_items" src="img/jpg/items/kraski_master_klass.jpg"  alt="kraski_master_klass">
+                            <figcaption class="name_items">Краски Мастер-класс</figcaption>
+                        </figure>
+                    </a>
+
+                    <div><span class="text_ping"> 900 р.</span> <sup><del>1 000 р.</del></sup></div>
+
+                    <div class="in_basket">
+
+                        <button type="submit" class="in_basket_btn">
+                            <svg class="icon_in_basket" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
+                                <use xlink:href="img/svg/shopping_cart.svg#shopping_cart"></use>
+                            </svg>
+                            <span>В корзину</span>
+                        </button>
+
+                        <button type="submit">
+                            <svg class="icon_in_basket" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 64">
+                                <use xlink:href="img/svg/bolt.svg#bolt"></use>
+                            </svg>
+                        </button>
+
+                    </div>
+                </div>
+
+                <div class="figure circle_sale">
+                    <a class="link_items" href="#">
+
+                        <figure>
+                            <img class="img_items" src="img/jpg/items/nabor_lesnie_sovi.jpg"  alt="nabor_lesnie_sovi">
+                            <figcaption class="name_items">Набор Лесные совы</figcaption>
+                        </figure>
+                    </a>
+
+                    <div><span class="text_ping"> 900 р.</span> <sup><del>1 000 р.</del></sup></div>
+
+                    <div class="in_basket">
+
+                        <button type="submit" class="in_basket_btn">
+                            <svg class="icon_in_basket" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
+                                <use xlink:href="img/svg/shopping_cart.svg#shopping_cart"></use>
+                            </svg>
+                            <span>В корзину</span>
+                        </button>
+
+                        <button type="submit">
+                            <svg class="icon_in_basket" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 64">
+                                <use xlink:href="img/svg/bolt.svg#bolt"></use>
+                            </svg>
+                        </button>
+
+                    </div>
+                </div>
+
+                <div class="figure circle_sale">
+                    <a class="link_items" href="#">
+
+                        <figure>
+                            <img class="img_items" src="img/jpg/items/markers_bright.jpg"  alt="markers_bright">
+                            <figcaption class="name_items">Маркеры Bright</figcaption>
+                        </figure>
+                    </a>
+
+                    <div><span class="text_ping"> 900 р.</span> <sup><del>1 000 р.</del></sup></div>
+
+                    <div class="in_basket">
+
+                        <button type="submit" class="in_basket_btn">
+                            <svg class="icon_in_basket" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
+                                <use xlink:href="img/svg/shopping_cart.svg#shopping_cart"></use>
+                            </svg>
+                            <span>В корзину</span>
+                        </button>
+
+                        <button type="submit">
+                            <svg class="icon_in_basket" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 64">
+                                <use xlink:href="img/svg/bolt.svg#bolt"></use>
+                            </svg>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+
+<footer>
+    <a class="logo" href="#">
+        <svg class="header_icon footer_icon" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 226 226">
+            <use xlink:href="img/svg/logo.svg#logo"></use>
+        </svg>
+        <div>
+            <div>
+                ARTKVARTAL.LV
+            </div>
+            <div>
+                хобби-гипермаркет
+            </div>
+        </div>
+    </a>
+
+    <div class="footer_menu">
+        <div class="footer_h">
+            Меню
+        </div>
+
+        <ul>
+
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Каталог</a></li>
+            <li><a href="#">Галерея</a></li>
+            <li><a href="#">Акции</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+
+    </div>
+
+    <div class="footer_menu">
+        <div class="footer_h">
+            Способы оплаты
+        </div>
+        <ul>
+            <li>Наличными</li>
+            <li>Visa или MasterCard</li>
+            <li>В кредит</li>
+        </ul>
+    </div>
+
+    <address class="footer_menu">
+        <div class="footer_h">
+            Контактная информация
+        </div>
+        <ul>
+            <li><a href="tel:+7495000000">Телефон: 8 (800) 00 00 00</a></li>
+            <li><a href="mailto:info@artkvartal.lv">E-mail: info@artkvartal.lv</a></li>
+            <li>Адрес: Москва, ул. Вронской, 27</li>
+        </ul>
+    </address>
+
+</footer>
+<small>&copy; ARTKVARTAL 2019</small>
 </body>
 </html>
