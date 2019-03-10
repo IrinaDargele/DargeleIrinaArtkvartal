@@ -713,7 +713,7 @@ small{
 
     .header_nav{
       position: absolute;
-        z-index: 100;
+        z-index: 200;
         width: 100%;
         padding: 0;
         background: #f4f4f4;
