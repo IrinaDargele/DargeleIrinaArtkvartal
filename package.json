@@ -1,0 +1,25 @@
+{
+  "name": "DargeleIrinaArtkvartal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IrinaDargele/DargeleIrinaArtkvartal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IrinaDargele/DargeleIrinaArtkvartal/issues"
+  },
+  "homepage": "https://github.com/IrinaDargele/DargeleIrinaArtkvartal#readme",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "jquery-migrate": "^1.4.1",
+    "slick-carousel": "^1.8.1"
+  }
+}
