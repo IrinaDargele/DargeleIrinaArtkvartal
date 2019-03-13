@@ -32,7 +32,7 @@ li{
     list-style-type: none;
 }
 
-.header_social-icon, .header_logo, .header_nav, .main, footer, small{
+.header_social-icon, .header_logo, .header_nav, .main, .footer, small{
     max-width: 1240px;
     min-width: 360px;
 
@@ -551,7 +551,7 @@ main{
     height: 16px;
     padding: 5px;
 }
-footer{
+.footer{
     display: flex;
     justify-content: flex-start;
     background: #666666;
