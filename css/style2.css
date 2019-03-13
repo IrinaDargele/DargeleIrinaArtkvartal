@@ -516,7 +516,7 @@ main{
 .img_items{
     display: block;
     width: 100%;
-    height: 100%;
+    height: 180px;
     object-fit: contain;
 }
 
@@ -775,7 +775,8 @@ small{
 
 
     .img_items{
-        width: 90px;
+        width: 100%;
+
         height: 90px;
     }
 
