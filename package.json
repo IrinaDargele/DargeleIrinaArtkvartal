@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/IrinaDargele/DargeleIrinaArtkvartal#readme",
   "dependencies": {
-    "jquery": "^3.3.1",
+    "jquery": "^3.4.0",
     "jquery-migrate": "^1.4.1",
     "slick-carousel": "^1.8.1"
   }
